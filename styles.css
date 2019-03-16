@@ -1,0 +1,144 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: #444;
+}
+
+button {
+    background-color: black;
+}
+
+button:focus {
+    outline: 0;
+
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 100px 50px;
+    text-align: center;
+    /*border-style: solid;*/
+    float: left;
+    
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.header {
+   text-align: center;
+    
+}
+
+h1 {
+    text-shadow: 2px 2px;
+}
+
+#left {
+    background-color: black;
+    color: black;
+}
+
+/*#right {
+    background-color: black;
+    color: white;
+}
+*/
+.container2 {
+    float: right;
+    border-style: solid;
+    text-align: center;
+    background-color: black;
+    /*height: 90vh;*/
+    width: 50%;
+    margin-top: 0%;
+    
+}
+
+.heading {
+  color: /*#008080*/white;
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 50% 0%;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+.tz-link {
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
+}
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #e64427;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+}
+
+#note-textarea {
+    margin: 20px 0;
+    border-color: black;
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+}
+
+#notes {
+    padding-top: 20px;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.note .content {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+
+}   
+
+.name {
+    color: #000;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
